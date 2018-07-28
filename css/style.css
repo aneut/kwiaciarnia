@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 10px; }
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: #f0e7cd url("../img/lawenda1.jpeg") center/cover no-repeat; }
+
+/*# sourceMappingURL=style.css.map */
