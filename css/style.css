@@ -4,35 +4,43 @@
 
 html {
   font-size: 10px;
-  /*RWD text/footer?*/
+  box-sizing: border-box;
   /*font-family: 'Combo', sans-serif;*/ }
 
 body {
   height: 100vh;
   width: 100%;
-  background: #f0e7cd url("../img/lawenda1.jpeg") center/cover no-repeat;
+  background: #946064 url("../img/lawenda1.jpeg") center/cover no-repeat;
   position: relative; }
   body header .container-fluid {
     font-size: 8rem;
     height: 25%;
     width: 100%;
     margin: 0 auto;
-    color: #f5e8c7;
     font-size: 7rem;
     text-align: center;
-    background-color: rgba(140, 91, 101, 0.5); }
+    background-color: rgba(140, 91, 101, 0.7); }
   body header .nav {
-    font-size: 2.5rem;
-    /*color: #f5e8c7 !important;*/ }
-  body main .card-deck .card {
-    padding: .8rem; }
-    body main .card-deck .card img.card-img-top {
-      height: 35%;
-      width: 35%;
-      margin: 0 auto;
-      padding: .4rem;
-      border: solid .1rem #a46f6b;
-      border-radius: 55%; }
+    font-size: 2.5rem; }
+  body main {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    background-position: center; }
+    body main .card-deck .card {
+      padding: .8rem;
+      margin-bottom: .8rem;
+      border-radius: 17%;
+      background-color: rgba(140, 91, 101, 0.7); }
+      body main .card-deck .card img.card-img-top {
+        height: 30%;
+        width: 30%;
+        margin: 0 auto;
+        padding: .4rem;
+        border: solid .25rem #f5e8c7;
+        border-radius: 35%; }
+      body main .card-deck .card p.card-text {
+        font-size: 1.2rem; }
   body footer {
     position: fixed;
     bottom: 0;
@@ -44,6 +52,6 @@ body {
       font-size: 1.5rem;
       color: #f5e8c7;
       text-align: center;
-      background-color: rgba(140, 91, 101, 0.5); }
+      background-color: rgba(140, 91, 101, 0.7); }
 
 /*# sourceMappingURL=style.css.map */
