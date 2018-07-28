@@ -5,7 +5,7 @@
 
 html {
     font-size: 10px;
-    box-sizing: border-box; /*RWD text/footer?*/
+    /*RWD text/footer?*/
     /*font-family: 'Combo', sans-serif;*/
 }
 
@@ -13,6 +13,7 @@ body {
     height: 100vh;
     width: 100%;
     background: #f0e7cd url('../img/lawenda1.jpeg') center/cover no-repeat;
+    position: relative;
 
     header {
         .container-fluid {
@@ -31,18 +32,45 @@ body {
         }
 
     }
+    main {
+        .card-deck {
+            .card {
+                
+                padding: .8rem;
+
+                img.card-img-top {
+                    height: 35%;
+                    width: 35%;
+                    margin: 0 auto;
+                    padding: .4rem;
+                    border: solid .1rem #a46f6b;
+                    border-radius: 55%;
+
+                }
+            }
+        }
+
+
+    }
 
     footer {
-      
-       
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 15%;
+
         .container-fluid {
-           /* position: absolute;*/
             width: 100%;
-            height: 15%;
+            height: 100%;
             font-size: 1.5rem;
             color: #f5e8c7;
             text-align: center;
             background-color: rgba($color: #8c5b65, $alpha: .5);
         }
     }
+
+    
+
+
+
 }
